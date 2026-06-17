@@ -1,4 +1,4 @@
-# CV 문서 타입 분류 대회 — 실험 기록 및 전략
+# CV 문서 타입 분류 대회 - 실험 기록 및 전략
 
 > 기간: 2026.02.19 ~ 03.03 | 최종 LB F1 Score: **0.9526**
 
@@ -237,6 +237,7 @@ project/
 │   ├── train.py             # 학습/검증 함수
 │   └── inference.py         # TTA 추론, 앙상블
 ├── data/
+│   └── train_v1            # 라벨 클렌징한 학습 데이터
 ├── outputs/
 ├── requirements.txt
 └── README.md
